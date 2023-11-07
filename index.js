@@ -1,4 +1,3 @@
-
 (function () {
 	function bool(pq) {
 		return pq.map(Boolean);
