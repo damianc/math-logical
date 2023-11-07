@@ -16,6 +16,7 @@
 |`not(q)`| 1 | 0 | 1 | 0 |
 |`implies(p,q)`| 1 | 1 | 0 | 1 |
 |`implies(q,p)`| 1 | 0 | 1 | 1 |
+|`equals(p,q)`| 1 | 0 | 0 | 1 |
 
 > 0 and 1 stand for `false` and `true`, respectively
 
