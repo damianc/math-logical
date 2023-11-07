@@ -1,3 +1,4 @@
+
 (function () {
 	function bool(pq) {
 		return pq.map(Boolean);
@@ -34,6 +35,9 @@
 		implies(p,q) {
 			[p,q] = bool([p,q]);
 			return !p || q;
+		},
+		equals(p,q) {
+			return ops.xnor(p,q);
 		}
 	};
 	
